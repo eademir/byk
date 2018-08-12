@@ -103,7 +103,7 @@ section .container .right p::first-letter{
 section form{
     width:100%;
     padding: 50px;
-    background: linear-gradient(35deg, #3333FF, #670BA0);
+    background: linear-gradient(55deg,#3333FF 10%, #670BA0);
     margin: 20px;
 }
 section form .left, section form .right{
@@ -126,7 +126,7 @@ section form h4{
 section form button{
     float:left;
     padding: 10px;
-    font-weight: bold;
+    font-weight: bolder;
     color:black;
     background: #0f0;
     border: red solid 1px;
