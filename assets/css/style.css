@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+}
+a, a:hover, a:active, a:focus{
+    text-decoration: none;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height: 100px;
+    background: #77f /*no-repeat*/;
+}
+header img{
+    height:100px;
+    margin:0 100px;
+    float:left;
+}
+header nav{
+    margin: 0 50px; 
+    height:100%;
+    float:left;
+}
+header nav ul{
+    list-style-type:none;
+    display:block;
+}
+header nav ul li{
+    padding:39px;
+    display:inline-block;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    color:#f1f1f1;
+    font-size:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-property: color;
+    transition-delay: 0.2s;
+    transition-duration: 0.7;
+}
+header nav ul li a:hover{
+    color:#000;
+}
+header .search{
+    display:block;
+    float:right;
+    padding:25px;
+    margin-right: 100px;
+}
+header .search input{
+    width:400px;
+    height: 45px;
+    background: #f0f0f0;
+    float:left;
+    margin-right: 20px;
+    font-size: 25px;
+    padding-right: 20px;
+}
+header .searching{
+    width:100px;
+    height: 50px;
+    border-radius: 10px 15px 25px 0;
+    font-size: 20px;
+    padding:0 20px;
+    float:left;
+}
+header input:focus{
+    border: 2px solid #0c0;
+}
+.slider img{
+    width:100%;
+}
+.slider{
+    width:100%;
+    height: 357px;
+    overflow: hidden;
+}
+section .container{
+    width:1300px;
+    padding: 50px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+}
+section .container .left, section .container .right{
+    width: 50%;
+    flex: 0 0 50%;
+    padding:20px;  
+}
+section .container .left img{
+    width:100%;
+}
+section .container .right p{
+    font-size: 25px;
+}
+section .container .right p::first-letter{
+    font-size: 50px;
+    color: #00aced;
+}
+section form{
+    width:100%;
+    padding: 50px;
+    background: linear-gradient(35deg, #3333FF, #670BA0);
+    margin: 20px;
+}
+section form .left, section form .right{
+    float:left;
+    width:50%;
+    padding: 10px;
+}
+section form [class*="de"]{
+    border: 1px solid #f00;
+    width:100%;
+    height: 50px;
+    margin: 30px 0;
+    padding: 0 0 0 20px;
+    font-size: 15px;
+}
+section form h4{
+    font-size: 20px;
+    padding: 0 0 0 30px;
+}
+section form button{
+    float:left;
+    padding: 10px;
+    font-weight: bold;
+    color:black;
+    background: #0f0;
+    border: red solid 1px;
+    float:right;
+}
+footer.top{
+    background: #313131;
+    width:96,45%;
+    flex-wrap: wrap;
+    display:flex;
+    padding:30px;
+}
+footer.top .left{
+    width: 39.3333%;
+    display:inline-block;
+    padding:20px;
+}
+footer.top .center{
+    width:21.3333%;
+    display: inline-block;
+    padding:20px;
+    text-align:center;
+}
+footer.top .right{
+    width: 39.3333%;
+    display:block;
+    padding:20px;
+}
+.top .center li{
+    list-style-type: none;
+}
+.top .right a,.top .left a,.top .center a, .top .right span,.top .left span, .top .center span,.top h3,.top p{
+    color: #f1f1f1;
+}
+.top h3{
+    padding: 0 0 20px 0;
+    font-size: 25px;
+    text-transform: uppercase
+}
+.top .right a,.top .left a,.top .center a, .top .right span,.top .left span, .top .center span,.top p, .top li{
+    font-size: 20px;
+    line-height: 24px;
+}
+.bottom{
+    background:#202020;
+    padding: 20px 50px;
+}
+.bottom p{
+    color: #505050;
+    font-size: 18px;
+    display:inline-block
+}
+.bottom div{
+    float:right;
+}
+.bottom i{
+    font-size: 18px;
+    position: sticky;
+    padding: 0 10px;
+}
+.bottom i:hover{
+    font-size: 40px;
+    margin-top: -20px;
+}
+[class*="facebook"]{
+    color:#3b5998;
+}
+[class*="twitter"]{
+    color:#00aced;
+}
+[class*="instagram"]{
+    color:#517fa4
+}
+[class*="google"]{
+    color:#dd4b39
+}
