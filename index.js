@@ -121,5 +121,7 @@ $(document).ready(function(){
     //addClass method
     $("#changeclass").click(function(){
         $("#changeclass").addClass("changed");
-    })
+    });
+    
+
 });
