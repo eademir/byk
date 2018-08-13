@@ -1,106 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ödev</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-</head>
-<body>
-    <header>
-        <img src="assets/img/i1Q66N4LZ.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="javasicript:void()">anasayfa</a></li>
-                <li><a href="javasicript:void()">blog</a></li>
-                <li><a href="javasicript:void()">iletişim</a></li>
-                <li><a href="javasicript:void()">hakkımda</a></li>
-            </ul>
-        </nav>
-        <div class="search">
-            <input type="text">
-            <button class="searching">
-                <i class="fas fa-search"></i>
-            </button>
-        </div>
-    </header>
-    <section>
-        <div class="slider">
-            <img src="assets/img/maxresdefault.jpg.jpg" alt="slider">
-        </div>
-        <div class="container">
-            <div class="left">
-                <img src="assets/img/gunes7.JPG" alt="img">
-            </div>
-            <div class="right">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut ultrices erat. Phasellus vel suscipit arcu. Integer aliquet rhoncus nunc nec volutpat. Sed finibus ultrices luctus. Nullam ornare enim massa. Cras vehicula dapibus erat nec elementum. Phasellus non quam ut leo tempus luctus sit amet eu eros. Cras non mi eu sem elementum posuere non non nunc. Donec nec neque sem. Curabitur ante magna, ullamcorper porttitor enim sit amet, condimentum aliquet leo.
-                    Nulla massa elit, congue ut aliquam ac, suscipit vel magna. Quisque blandit nibh sit amet aliquam lobortis. Nam elementum tellus vulputate, semper justo a, rhoncus est. Praesent id libero hendrerit, fermentum dui sit amet, pulvinar turpis. Duis nec vulputate lorem. In ipsum ligula, bibendum non dignissim non, accumsan si
-                </p>
-            </div>
-            <form action="javascript:void()">
-                <h4>FORM</h4>
-                <div class="left">
-                    <input class="de"type="text" required placeholder="isim">
-                    <input placeholder="soyisim" class="den" type="text" required>
-                </div>
-                <div class="right">
-                    <input class="deneme" placeholder="e-posta adresi" type="email" required>
-                    <input class="denem"  type="tel" placeholder="telefon numarası">
-                </div>
-                <button class="formbttn">
-                    GÖNDER
-                </button>
-            </form>
-        </div>
-    </section>
-    <footer class="top">
-        <div class="left">
-            <h3>
-                hakkımda
-            </h3>
-            <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut ultrices erat. Phasellus vel suscipit arcu. Integer aliquet rhoncus nunc nec volutpat. Sed finibus ultrices luctus. Nullam ornare enim massa. Cras vehicula dapibus erat nec elementum. Phasellus non quam ut leo tempus luctus sit amet eu eros. Cras non mi eu sem elementum posuere non non nunc. Donec nec neque sem. Curabitur ante magna, ullamcorper porttitor enim sit amet, condimentum aliquet leo.
-            </p>
-        </div>
-        <div class="center">
-            <h3>
-                menü
-            </h3>
-            <ul>
-                <li><a href="javascript:void()">Anasayfa</a></li>
-                <li><a href="javascript:void()">Blog</a></li>
-                <li><a href="javascript:void()">İletişim</a></li>
-                <li><a href="javascript:void()">Hakkımızda</a></li>
-            </ul>
-        </div>
-        <div class="right">
-            <h3>
-                iletişim
-            </h3>
-            <span>
-                TEL:
-            </span>
-            <a href="javascript:void()">+90 312 999 99 99</a>
-            <span>
-                Adres: Kızılay Mahallesi Çankaya Ankara
-            </span>
-            <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.8973287360013!2d32.79663461563825!3d39.92131379354349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d348b7e9f733ab%3A0xdf1bcdf3b364e3d8!2sTOBB+Ekonomi+ve+Teknoloji+%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1534109689137" width="850" height="140" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-    </footer>
-    <footer class="bottom">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JQuery</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="toggle">Hide/Show</button>
         <p>
-            &#169; TBD YAZ KURSU EĞİTİMİ
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tellus vehicula eros dictum tempus. Pellentesque aliquet sem vitae velit fringilla, et malesuada metus tempor. Nullam purus augue, molestie sed tempus quis, volutpat at ante. Curabitur varius, augue id congue venenatis, dolor arcu tincidunt nibh, nec vehicula augue enim ac nisl. Phasellus id iaculis mi. Nullam sapien sem, bibendum ac tincidunt quis, iaculis quis nibh. Duis molestie ex vel dictum aliquam.
         </p>
-        <div class="social">
-            <a href="javascript:void()"><i class="fab fa-facebook-square"></i></a>
-            <a href="javascript:void()"><i class="fab fa-twitter-square"></i></a>
-            <a href="javascript:void()"><i class="fab fa-instagram"></i></a>
-            <a href="javascript:void()"><i class="fab fa-google-plus"></i></a>
+        <hr>
+        <button id="fadein">Fade In</button>
+        <button id="fadeout">Fade Out</button>
+        <button id="fadetoggle">Fade In/Fade Out</button>
+        <div class="diva"></div>
+        <div class="divb"></div>
+        <div class="divc"></div>
+        <hr>
+        <button id="flipdown">Flip Down</button>
+        <button id="flipup">Flip Up</button>
+        <button id="fliptoggle">Flip Down/Flip Up</button>
+        <button id="stop">Stop</button>
+        <div id="panel"></div>
+        <hr>
+        <div id="chaining">
+            <button id="chain">Start</button>
         </div>
-    </footer>
-</body>
+        <hr>
+        <div id="slider">
+            <div class="slider">
+                <ul>
+                    <li><a href="#"><img src="resim.png" alt="" /></a></li>
+                    <li><a href="#"><img src="resim.png" alt="" /></a></li>
+                    <li><a href="#"><img src="resim.png" alt="" /></a></li>
+                    <li><a href="#"><img src="resim.png" alt="" /></a></li>
+                    <li><a href="#"><img src="resim.png" alt="" /></a></li>
+                </ul>
+            </div>
+            <div class="sliderButon">
+                <a href="#" class="onceki">Önceki</a>
+                <a href="#" class="sonraki">Sonraki</a>
+            </div>
+        </div>
+        <hr>
+        <div id="changeclass">
+            
+        </div>
+    </body>
 </html>
