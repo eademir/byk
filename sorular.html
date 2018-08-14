@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        span{
+            display:none;
+        }
+    </style>
+    <script>
+        function correct(){
+            console.log("c")
+        }
+        function wrong(){
+            console.log("w")
+        }
+    </script>
+</head>
+<body>
+    <section>
+        <h3>Soru1:</h3>
+        <p>
+            CSS'de margin nedir?
+        </p>
+        <input onclick="correct()" id="1a" type="radio" name="1"> İç Boşluk
+        <input onclick="wrong()" id="1b"type="radio" name="1">  Dış Boşluk
+        <input onclick="wrong()" id="1c" type="radio" name="1"> İç Huzur
+        <input onclick="wrong()" id="1d" type="radio" name="1"> Üst Boşluk
+    </section>
+    <section>
+        <h3>Soru2:</h3>
+        <p>
+            Aşağıdaki HTML etiketlerinden hangisinin kapatılmaya ihtiyacı vardır?
+        </p>
+        <input onclick="wrong()" id="2a" type="radio" name="d"> meta
+        <input onclick="wrong()" id="2b" type="radio" name="d"> link
+        <input onclick="correct()" id="2c" type="radio" name="d"> span
+        <input onclick="wrong()" id="2d" type="radio" name="d"> img
+    </section>
+    <section>
+        <h3>Soru3:</h3>
+        <p>
+            Aşağıdakilerden hangisi resim ekleme metodudur?
+        </p>
+        <input onclick="wrong()" id="3a" type="radio" name="3"> imgsrc=logo.jpg
+        <input onclick="wrong()" id="3b" type="radio" name="3"> img href="logo.png"
+        <input onclick="wrong()" id="3c" type="radio" name="3"> img ="logo.svg"
+        <input onclick="correct()" id="3d" type="radio" name="3"> img src="logo.jpg"
+    </section>
+    <section>
+        <h3>Soru4:</h3>
+        <p>
+            Hangisi CSS'te açıklama satırı içerir?
+        </p>
+        <input onclick="wrong()" id="4a" type="radio" name="2"> /açıklama satırı/
+        <input onclick="correct()" id="4b" type="radio" name="2"> /*açıklama satırı*/
+        <input onclick="wrong()" id="4c" type="radio" name="2"> // açıklama satırı//
+        <input onclick="wrong()" id="4d" type="radio" name="2"> */açıklama satırı*/
+    </section>
+    <section>
+        <h3>Soru5:</h3>
+        <p>
+            8 satırlık bir hex renk kodunda son iki satır neyi ifade eder?
+        </p>
+        <input onclick="wrong()" id="5a" type="radio" name="5"> kırmızıyı
+        <input onclick="wrong()" id="5b" type="radio" name="5">yeşili
+        <input onclick="wrong()" type="radio" name="5">maviyi
+        <input onclick="correct()" id="5d" type="radio" name="5"> saydamlığı
+    </section>
+    <section>
+        <h3>Soru6:</h3>
+        <p>
+            .com.tr ne tür siteler için kullanılır?
+        </p>
+        <input onclick="correct()" id="6a" type="radio" name="6"> ticari
+        <input onclick="wrong()" id="6b" type="radio" name="6"> kişisel
+        <input onclick="wrong()" id="6c" type="radio" name="6"> blog
+        <input onclick="wrong()" id="6d" type="radio" name="6"> okul
+    </section>
+    <section>
+        <h3>Soru7:</h3>
+        <p>
+            div etiketinin varsayılan (css ile manipüle edilmemiş) genişliği kaç pixeldir?
+        </p>
+        <input onclick="wrong()" id="7a" type="radio" name="7"> 100px
+        <input onclick="wrong()" id="7b" type="radio" name="7"> 50px
+        <input onclick="wrong()" id="7c" type="radio" name="7"> 25px
+        <input onclick="correct()" id="7d" type="radio" name="7"> 0px
+    </section>
+    <section>
+        <h3>Soru8:</h3>
+        <p>
+            css ile html sayfasına stil verme hangi html sürümü ile gelmiştir?
+        </p>
+        <input onclick="wrong()" id="8a" type="radio" name="8"> 1.0
+        <input onclick="wrong()" id="8b" type="radio" name="8">2.0
+        <input onclick="correct()" id="8c" type="radio" name="8">3.2
+        <input onclick="wrong()" id="8d" type="radio" name="8">3.0
+    </section>
+    <section>
+        <h3>Soru9:</h3>
+        <p>
+            css dosyasında *{} genel seçici değildir.
+        </p>
+        <input onclick="wrong()" id="9a" type="radio" name="9"> Doğru
+        <input onclick="correct()" id="9b" type="radio" name="9"> Yanlış
+    </section>
+    <section>
+        <h3>Soru10:</h3>
+        <p>
+            numaralı liste için kullanılan etiket hangisidir?
+        </p>
+        <input onclick="wrong()" id="10a" type="radio" name="10"> ul
+        <input onclick="correct()" id="10b" type="radio" name="10"> ol
+        <input onclick="wrong()" id="10c" type="radio" name="10"> li
+        <input onclick="wrong()" id="10d" type="radio" name="10"> il
+    </section>
+</body>
+</html>
